@@ -2,15 +2,14 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-
-section {
+.part2, .part3{
     display: flex;
-
-    background-repeat: no-repeat;
 }
 
 .sec1{
     background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 .part {
@@ -40,5 +39,24 @@ h1{
     background-image: linear-gradient(tomato, orange);
     transform: scale(1.1);
     padding: 12px 34px;
+}
+
+
+.expe-heading{
+    padding-left: 20px;
+}
+
+.expe-part{
+    width: 35%;
+    padding: 5%;
+    box-shadow: 5px 10px 40px;
+    margin-left: 40px;
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato, #4d9f0c) 1;
+}
+
+.footer{
+    margin-top: 150px;
+    text-align: center;
 }
 
